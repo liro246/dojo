@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "dojo"
+  devtools:
+    add-properties: false
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/prueba
+    username: root
+    password: nomelase1M
+  jpa:
+    databasePlatform: org.hibernate.dialect.MySQL5Dialect
